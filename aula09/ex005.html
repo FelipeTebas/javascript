@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando DOM</title>
+    <style>
+        body{
+            background-color: rgb(235, 235, 147);
+            color: rgb(42, 209, 42);
+            font: normal 18pt arial;
+        }
+        .caixa{
+            background-color: rgb(245, 55, 55);
+            text-align: center;
+            color: yellowgreen;
+            font:normal 14pt arial;
+            margin-right: 6cm;
+            margin-left: 6cm;
+            
+        }
+    </style>
+</head>
+<body>
+    <h2>Estudando o DOM</h2>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendedno a usar <strong>DOM</strong> em JavaScript</p>
+    <div class = 'caixa'>Aperta essa porra</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[1] //DOM em JS pegando elemento pela tag/nome/id
+        window.document.write() //Escreve algo na página
+        /*var d = window.document.getElementById('msg')
+        d.style.background = 'pink'*/
+    </script>
+</body>
+</html>

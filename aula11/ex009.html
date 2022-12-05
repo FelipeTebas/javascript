@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body{
+            background: turquoise;
+            font: normal 16pt arial;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Identificação de Nacionalidade</h1>
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="verificar" onclick="comprovar()">
+    <div id= 'nac'>
+
+    </div>
+
+    <script>
+        function comprovar(){
+            var txtp = window.document.querySelector('input#pais')
+            var p = window.document.querySelector('div#nac')
+            if (txtp != 'Brasil'){
+                nac.innerHTML = `Você atualmente vive em ${txtp}, tu é estrangeiro mané!`
+            }else{
+                nac.innerHTML = `Se tu vive no Brasil tu é brasileiro né! dããããã.`
+            }
+                        
+        }
+        
+
+    </script>
+
+    
+    
+</body>
+</html>
