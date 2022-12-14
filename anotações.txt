@@ -1,0 +1,1 @@
+switch é a condição multipla, uma espécie de if com várias condições dentro dele, o brake é obrigatório pra cada condição.
