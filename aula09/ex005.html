@@ -11,14 +11,14 @@
             color: rgb(42, 209, 42);
             font: normal 18pt arial;
         }
-        .caixa{
+        #msg{
             background-color: rgb(245, 55, 55);
             text-align: center;
             color: yellowgreen;
             font:normal 14pt arial;
             margin-right: 6cm;
             margin-left: 6cm;
-            
+            padding: 10px;
         }
     </style>
 </head>
@@ -26,12 +26,14 @@
     <h2>Estudando o DOM</h2>
     <p>Aqui vai o resultado</p>
     <p>Aprendedno a usar <strong>DOM</strong> em JavaScript</p>
-    <div class = 'caixa'>Aperta essa porra</div>
+    <div id = 'msg'>Aperte aqui</div>
     <script>
-        var p1 = window.document.getElementsByTagName('p')[1] //DOM em JS pegando elemento pela tag/nome/id
-        window.document.write() //Escreve algo na página
-        /*var d = window.document.getElementById('msg')
-        d.style.background = 'pink'*/
+        //window.document.write(window.navigator.appName)
+        var p1 = window.document.getElementsByTagName('p')[0] //DOM em JS pegando elemento pela tag/nome/id
+        p1.style.color = 'blue'
+        window.document.write(p1.innerText) //Escreve algo na página
+        var d = window.document.getElementById('msg')
+        d.style.background = 'pink'
     </script>
 </body>
 </html>

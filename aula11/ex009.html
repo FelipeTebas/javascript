@@ -27,6 +27,8 @@
             var p = window.document.querySelector('div#nac')
             if (txtp != 'Brasil'){
                 nac.innerHTML = `Você atualmente vive em ${txtp}, tu é estrangeiro mané!`
+            if (txtp.value != 'Brasil'){
+                p.innerHTML = `Você atualmente vive em ${txtp.value}, tu é estrangeiro mané!`
             }else{
                 nac.innerHTML = `Se tu vive no Brasil tu é brasileiro né! dããããã.`
             }
