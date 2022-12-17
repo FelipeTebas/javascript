@@ -17,7 +17,7 @@ header {
 
 section {
     padding: 15px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     color: black;
     width: 500px;
     margin: auto;
@@ -26,12 +26,14 @@ section {
 }
 
 div#texto {
-    text-align: center;
+    background-color: aquamarine;
     padding-top: 5px;
     margin: 5px;
 }
 
 div#imagem {
+    position: relative;
+    border-radius: 50%;
     text-align: center;
 }
 
