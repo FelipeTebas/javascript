@@ -36,12 +36,6 @@ div#texto p {
     padding-bottom: 5px;
 }
 
-div#imagem {
-    position: relative;
-    border-radius: 50%;
-    text-align: center;
-}
-
 footer {
     text-align: center;
     padding: 10px;
