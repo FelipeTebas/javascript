@@ -26,9 +26,13 @@ section {
 }
 
 div#texto {
-    background-color: aquamarine;
+    background-color: rgba(128, 128, 128, 0.418);
     padding-top: 5px;
     margin: 5px;
+}
+
+div#texto p {
+    padding-bottom: 5px;
 }
 
 div#imagem {
