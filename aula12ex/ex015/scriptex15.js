@@ -20,7 +20,7 @@ function carregar() {
     }
 
     if (genero == 'Homem'){
-        if (idade <= 15){
+        if (idade >= 0 && idade<= 10){
             foto.src = 'bebe_h.png'
             texto.innerHTML = `Detectamos um homem de ${idade} anos.`
         }else if (idade < 35){
@@ -34,7 +34,7 @@ function carregar() {
             texto.innerHTML = `Detectamos um homem de ${idade} anos.`
         }
     }else {
-        if (idade <= 15){
+        if (idade >= 0 && idade<= 10){
             foto.src = 'bebe_m.png'
             texto.innerHTML = `Detectamos uma mulher de ${idade} anos.`
         }else if (idade < 35){

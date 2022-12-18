@@ -27,8 +27,9 @@ section {
 
 div#texto {
     background-color: rgba(128, 128, 128, 0.418);
-    padding-top: 5px;
+    padding: 10px;
     margin: 5px;
+    border-radius: 10px;
 }
 
 div#texto p {
