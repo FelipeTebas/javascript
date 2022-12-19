@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+body {
+    background-color: rgba(0, 160, 160, 0.473);
+}
+
 header {
     text-align: center;
     margin-top: 50px;
@@ -11,9 +15,9 @@ header {
 }
 
 section {
-    background-color: white;
-    padding: 15px;
+    background-color: rgb(238, 240, 156);
     width: 500px;
+    padding: 15px;
     margin: auto;
     border-radius: 12px;
     box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.404);

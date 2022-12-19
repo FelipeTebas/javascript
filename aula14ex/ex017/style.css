@@ -5,8 +5,7 @@
 }
 
 body {
-    background-color: rgb(61, 61, 233);
-    color: white;
+    background-color: rgba(0, 160, 160, 0.473);
 }
 
 header {
@@ -16,25 +15,12 @@ header {
 }
 
 section {
-    padding: 15px;
-    background-color: white;
-    color: black;
+    background-color: rgb(238, 240, 156);
     width: 500px;
+    padding: 15px;
     margin: auto;
     border-radius: 12px;
     box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.404);
-}
-
-div#texto {
-    text-align: center;
-    background-color: aquamarine;
-    padding-top: 5px;
-    margin: 5px;
-}
-
-div#imagem {
-    position: relative;
-    border-radius: 50%;
 }
 
 footer {
