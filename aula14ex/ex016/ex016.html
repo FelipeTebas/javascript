@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercício</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+    <section>
+        <div id="cont">
+            <p>
+                <label for="ini">Início: </label>
+                <input type="number" name="ini" id="ini" required>
+            </p>
+            <p>
+                <label for="fim">Fim: </label>
+                <input type="number" name="fim" id="fim" required>
+            </p>
+            <p>
+                <label for="passo">passo: </label>
+                <input type="number" name="passo" id="passo" required>
+            </p>
+            <p>
+                <input type="button" value="Contar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="saida">
+            Mundo
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Felipe Tebas</p>
+    </footer>
+</body>
+</html>
