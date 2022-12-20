@@ -10,14 +10,21 @@
 </head>
 <body>
     <header>
-        <h1>Verificador de idade</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
-        <div id="texto">
-            Olá
+        <div id="numero">
+            <p>
+                <label for="num">Número: </label>
+                <input type="number" name="num" id="num">
+                <input type="button" value="Gerar Tabuada" onclick="calcular()">
+            </p>
         </div>
-        <div id="imagem">
-            Mundo
+        <div id="saida">
+            <p id="texto"></p>
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+            </select>
         </div>
     </section>
     <footer>
